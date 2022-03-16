@@ -1,0 +1,9 @@
+package org.testngtest2;
+
+public class MainClass {
+
+	public MainClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

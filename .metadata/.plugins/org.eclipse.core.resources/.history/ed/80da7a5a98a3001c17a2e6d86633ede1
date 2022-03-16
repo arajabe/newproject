@@ -1,0 +1,87 @@
+package org.pageobject;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+	
+	static WebDriver driver;
+static int k=0;
+	@BeforeClass
+	 public void browserConfiguration() {
+		 WebDriverManager.chromedriver().setup();
+		 driver =new ChromeDriver();
+		 driver.manage().window().maximize();	 
+	 }
+	 @BeforeMethod
+	 public void browserLaunching() {
+		 driver.get("http://www.adactin.com/HotelApp");
+		 Date d = new Date();
+		 SimpleDateFormat sdf = new SimpleDateFormat("mm,dd,yyyy");
+		 String da = sdf.format(d);
+		 System.out.println(da); 
+	 }
+	 
+		@Test
+		public void Login() throws IOException {
+			PageObjectMod p=new PageObjectMod();
+			ExcelData e= new ExcelData();
+			p.getUserid().sendKeys(e.fileDataThree());
+			p.getPassword().sendKeys(e.fileDataThree());
+			p.getLoginbutton().click();
+			p.getLocation().sendKeys(e.fileDataThree());
+			p.getHotels().sendKeys(e.fileDataThree());
+			p.getRoomtype().sendKeys(e.fileDataThree());
+			p.getNumberofrooms().sendKeys(e.fileDataThree());
+			p.getCheckindate().sendKeys(e.fileDataThree());
+			p.getCheckoutdate().sendKeys(e.fileDataThree());
+	p.getAdlt().sendKeys(e.fileDataThree());		
+	p.getChild().sendKeys(e.fileDataThree());
+	p.getSearch().click();
+	p.getRadiobutton().click();
+	p.getContinu().click();
+	p.getFirstnamee().sendKeys(e.fileDataThree());
+	p.getLastnamee().sendKeys(e.fileDataThree());
+	p.getAddress().sendKeys(e.fileDataThree());
+	p.getCardnumber().sendKeys(e.fileDataThree());
+	p.getCardtype().sendKeys(e.fileDataThree());
+	p.getExpmonth().sendKeys(e.fileDataThree());
+	p.getExpyear().sendKeys(e.fileDataThree());
+	p.getCvvnumber().sendKeys(e.fileDataThree());
+	p.getBooknow().click();
+	WebElement book = driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[2]/td/form/table/tbody/tr[18]/td[2]/input"));
+	System.out.println(book.getAttribute("name"));
+	System.out.println(book.getAttribute("type"));
+	System.out.println(book.getAttribute("class"));
+	System.out.println(book.getAttribute("id"));
+	System.out.println(book.getAttribute("value"));
+	System.out.println(book.getAttribute("disabled"));
+	WebElement elements = driver.findElement(By.xpath("/html/body/table[2]/tbody/tr[2]/td/form/table/tbody/tr[2]/td[2]/input"));
+	
+		System.out.println(elements.getAttribute("value"));
+		
+	}
+	//p.getMyiti().click();
+	//List<WebElement> elements = driver.findElements(By.xpath("/html/body/table[2]/tbody/tr[2]/td/form/table/tbody/tr[2]/td/table/tbody/tr[2]/td[4]/input"));
+	//for (WebElement webElement : elements) {
+		//System.out.println(webElement.getAttribute("value"));
+		
+	//}
+		}
+
+	}
+
+

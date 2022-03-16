@@ -1,0 +1,13 @@
+package org.testngtest3;
+
+import org.openqa.selenium.support.PageFactory;
+
+public class PageObjectModel extends MainClass {
+
+	public PageObjectModel() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+
+}

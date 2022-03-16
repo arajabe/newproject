@@ -1,0 +1,38 @@
+package org.pageobject;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Email {
+	static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();		
+	}
+@Before
+public void launchingBrowser() {
+	
+	driver.manage().window().maximize();
+	driver.get("http://www.greenstechnologys.com/");
+	
+}
+
+@Test
+public void email() {
+	WebElement traing = driver.findElement(By.xpath("//span[@class='blue_text'][1]"));
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	js.executeScript("arguments[0].scrollIntoView(true)",traing );
+	WebElement email = driver.findElement(By.xpath("//a[contains(text(),'contact@')]"));
+	System.out.println(email);
+	
+}
+}

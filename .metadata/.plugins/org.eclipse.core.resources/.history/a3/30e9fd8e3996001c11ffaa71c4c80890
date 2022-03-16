@@ -1,0 +1,9 @@
+package og.classes;
+
+public class MainTestClass {
+
+	public MainTestClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,72 @@
+package org.testngtest3;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+	static WebDriver driver;
+	@BeforeClass
+		public void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver =new ChromeDriver();		
+		
+	}
+	
+	@BeforeMethod
+	public void browserLaunching() {
+		driver.get("https://demoqa.com/");
+		driver.manage().window().maximize();
+		}
+
+	@Test(dataProvider="data")
+	public void input(String f,String l,String g,String m,String c,String ci,String me) {
+		
+		PageObjectModel p= new PageObjectModel();
+		p.getJoinnow().click();
+		String parentid = driver.getWindowHandle();
+		Set<String> allwindowsid = driver.getWindowHandles();
+		for (String eachid : allwindowsid) {
+			if(!parentid.equals(eachid)) {
+				driver.switchTo().window(eachid);
+				driver.manage().window().maximize();
+				p.getGotoregisteration().click();
+				WebElement scro = driver.findElement(By.xpath("//div[@class='text-center upcoming__registration--heading']"));
+				JavascriptExecutor js =(JavascriptExecutor)driver;
+				js.executeScript("arguments[0].scrollIntoView(true)",scro);
+				p.getFirstname().sendKeys(f);
+				p.getLastname().sendKeys(l);
+				p.getEmail().sendKeys(g);
+				p.getMobile().sendKeys(m);
+				p.getCountry().sendKeys(c);
+				p.getCity().sendKeys(ci);
+				p.getMessage().sendKeys(me);
+				
+			}
+		}		
+			}
+	@DataProvider(name="data")
+	public Object[][] data(){
+		return new Object[][]
+				{{"raja","anbalaga","arajabe@gmail.com","9840563291","India","delhi","hai"},
+					{"raja","anbalaga","arajabe@gmail.com","9840563291","India","delhi","hai"},
+				}
+		;}
+	
+		
+		
+	
+	
+	
+
+}

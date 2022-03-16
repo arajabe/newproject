@@ -1,0 +1,59 @@
+package org.pageobject;
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import java.util.Date;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SubMain {
+
+	
+	static WebDriver driver;
+		@BeforeClass
+		public static void browserConfiguration() {
+			WebDriverManager.chromedriver().setup();
+					
+		}
+		@Before
+		public void browserLaunching() {
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("http://www.greenstechnologys.com/");
+	
+		}
+		@Test
+		public void courses() throws AWTException {
+			WebElement course = driver.findElement(By.xpath("//a[text()='COURSES']"));
+			WebElement submenu = driver.findElement(By.xpath("(//ul[@class='sub-menu'])[1]"));
+			WebElement javae = driver.findElement(By.xpath("//span[text()='Java Training']"));
+			Actions a = new Actions(driver);
+			a.moveToElement(course).perform();
+			a.clickAndHold(course).perform();
+			a.moveToElement(submenu).perform();
+			a.moveToElement(javae).click().build().perform();
+			JavascriptExecutor js = (JavascriptExecutor)driver;
+			WebElement anitha = driver.findElement(By.xpath("//h2[text()='Java training Reviews from Anitha']"));
+			js.executeScript("arguments[0].scrollIntoView(true)", anitha);
+			WebElement anithareview = driver.findElement(By.xpath("//p[contains (text(),'was looking out for ins')]"));
+			System.out.println("Anitha Review");
+			System.out.println(anithareview.getText());
+			driver.close();
+		}
+
+
+
+}

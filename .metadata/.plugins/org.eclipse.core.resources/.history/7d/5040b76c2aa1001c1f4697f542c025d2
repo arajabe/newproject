@@ -1,0 +1,53 @@
+package org.testngtest3;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class PageObjectModel extends MainClass {
+
+	public PageObjectModel() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath="//img[@class='banner-image']")private WebElement joinnow;  
+	@FindBy(xpath="//a[text()='Go To Registration ']") private WebElement gotoregisteration;
+	@FindBy(xpath="//input[@id='first-name']")private WebElement firstname;
+	@FindBy(xpath="//input[@id='last-name']")private WebElement lastname;
+	@FindBy(xpath="//input[@id='email']") private WebElement email;
+	@FindBy(xpath="//input[@id='mobile']")private WebElement mobile;
+	@FindBy(xpath="//select[@name='country']")private WebElement country;
+@FindBy(xpath="//input[@id='city']") private WebElement city;
+@FindBy(xpath="//textarea[@name='message']") private WebElement message;
+@FindBy(xpath="Send")private WebElement send;
+public WebElement getJoinnow() {
+	return joinnow;
+}
+public WebElement getGotoregisteration() {
+	return gotoregisteration;
+}
+public WebElement getFirstname() {
+	return firstname;
+}
+public WebElement getLastname() {
+	return lastname;
+}
+public WebElement getEmail() {
+	return email;
+}
+public WebElement getMobile() {
+	return mobile;
+}
+public WebElement getCountry() {
+	return country;
+}
+public WebElement getCity() {
+	return city;
+}
+public WebElement getMessage() {
+	return message;
+}
+public WebElement getSend() {
+	return send;
+}
+}

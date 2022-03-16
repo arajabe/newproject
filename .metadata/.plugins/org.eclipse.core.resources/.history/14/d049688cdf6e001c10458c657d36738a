@@ -1,0 +1,14 @@
+package org.sample;
+
+public class Sample {
+
+	public static void main(String arg[]) {
+		String a = new String();
+		a.isEmpty();
+		a.toUpperCase();
+		System.out.println("print  "+a.isEmpty());
+		System.out.println("print  "+a.toUpperCase());
+		
+	}
+
+}

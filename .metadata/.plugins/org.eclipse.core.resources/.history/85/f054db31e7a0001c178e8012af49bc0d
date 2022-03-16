@@ -1,0 +1,19 @@
+package org.pageobject;
+
+import org.junit.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Note6 {
+static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+	}
+	
+
+}

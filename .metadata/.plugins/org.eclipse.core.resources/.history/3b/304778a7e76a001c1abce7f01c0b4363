@@ -1,0 +1,9 @@
+package org.network;
+
+public class MobileData {
+
+	public MobileData() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package org.pageobject;
+
+public class Email {
+
+	public Email() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

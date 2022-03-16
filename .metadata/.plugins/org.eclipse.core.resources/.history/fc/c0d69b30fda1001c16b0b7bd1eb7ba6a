@@ -1,0 +1,9 @@
+package org.datadriven1;
+
+class Question2 {
+
+	public Question2() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

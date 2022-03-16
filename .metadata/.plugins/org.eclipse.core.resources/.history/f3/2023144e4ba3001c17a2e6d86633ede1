@@ -1,0 +1,56 @@
+package org.pageobjectmodel;
+
+import java.io.IOException;
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+	static WebDriver driver;
+	static int i =0;
+	@BeforeClass
+	public void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+	}
+	@BeforeMethod
+	public void browserLaunching(){
+		driver.get("https://demoqa.com");
+				
+	}
+	@Test
+	public void registerationPage() throws IOException {
+		PageObject p= new PageObject();
+		DataExcel a=new DataExcel();
+p.getJoinnow().click();
+String parentid = driver.getWindowHandle();
+Set<String> allwindowsid = driver.getWindowHandles();		
+for (String eachid : allwindowsid) {
+if(!parentid.equals(eachid)) {	
+	driver.switchTo().window(eachid);
+driver.manage().window().maximize();
+
+p.getGotoregistration().click();
+		p.getFirstname().sendKeys(a.dataExcel());
+		p.getLastname().sendKeys(a.dataExcel());
+		p.getEmail().sendKeys(a.dataExcel());
+		p.getMobile().sendKeys(a.dataExcel());
+		p.getCountry().sendKeys(a.dataExcel());
+		p.getCity().sendKeys(a.dataExcel());
+p.getMessage().sendKeys(a.dataExcel());
+
+}		
+}
+		
+		
+	}
+
+}

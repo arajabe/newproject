@@ -1,0 +1,17 @@
+package org.pageobjectmodel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class PageObject extends MainClass{
+
+	public PageObject() {
+		PageFactory.initElements(driver, this);
+	}
+	@FindBy(xpath="//img[@class='banner-image']")private WebElement joinnow;
+@FindBy(xpath="//a[text()='Go To Registration ']")private WebElement gotoregistration;
+@FindBy(xpath="//input[@id='first-name']")private WebElement firstname;
+@FindBy(xpath="//input[@id='last-name']")private WebElement lastname;
+
+}

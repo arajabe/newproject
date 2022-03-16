@@ -1,0 +1,9 @@
+package org.pageobject;
+
+public class Note5 {
+
+	public Note5() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

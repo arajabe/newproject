@@ -1,0 +1,9 @@
+package org.pageobjectmodel;
+
+public class DataExcel {
+
+	public DataExcel() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

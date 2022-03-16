@@ -1,0 +1,9 @@
+package org.junittest7;
+
+public class MainClass {
+
+	public MainClass() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

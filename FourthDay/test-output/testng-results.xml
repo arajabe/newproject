@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17978" started-at="2022-02-26T16:41:42Z" finished-at="2022-02-26T16:42:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17978" started-at="2022-02-26T16:41:42Z" finished-at="2022-02-26T16:42:00Z">
+      <class name="org.testng.TestingClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.testng.TestingClass@16905e]" name="beforeClass" is-config="true" duration-ms="7622" started-at="2022-02-26T22:11:42Z" finished-at="2022-02-26T22:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="passWord(java.lang.String, java.lang.String)[pri:0, instance:org.testng.TestingClass@16905e]" name="passWord" duration-ms="5134" started-at="2022-02-26T22:11:50Z" data-provider="passWord" finished-at="2022-02-26T22:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWord -->
+        <test-method status="PASS" signature="userId(java.lang.String, java.lang.String)[pri:0, instance:org.testng.TestingClass@16905e]" name="userId" duration-ms="5107" started-at="2022-02-26T22:11:55Z" data-provider="userId" finished-at="2022-02-26T22:12:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arajabe77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[king]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userId -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:org.testng.TestingClass@16905e]" name="browserClose" is-config="true" duration-ms="86" started-at="2022-02-26T22:12:00Z" finished-at="2022-02-26T22:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- org.testng.TestingClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

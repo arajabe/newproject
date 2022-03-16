@@ -1,0 +1,58 @@
+package org.junittest6;
+
+import java.util.Date;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguraton() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		}
+	@Before
+	public void browserLaunching() {
+		driver.get("http://www.adactin.com/HotelApp/");
+		Date d = new Date();
+		System.out.println(d);
+	}
+	@Test
+	public void loginPage(){
+		System.out.println("print");
+		PageObjectModel p= new PageObjectModel();
+		p.getUserid().sendKeys("arajabe1234");
+		p.getPassword().sendKeys("chennai");
+		p.getLoginbutton().click();
+		p.getLocation().sendKeys("Ade");
+		p.getHotels().sendKeys("Hotel Sun");
+		p.getRoomtypes().sendKeys("Del");
+		p.getNumberofrooms().sendKeys("1");
+		p.getCheckindate().sendKeys("13/03/2022");
+		p.getCheckoutdate().sendKeys("14/03/2022");
+		p.getAdult().sendKeys("1");
+		p.getChild().sendKeys("1");
+		p.getSearch().click();
+		p.getRadiobutton().click();
+		p.getContin().click();
+		p.getFirstname().sendKeys("Raja");
+		p.getLastname().sendKeys("Anbalagan");
+		p.getAddress().sendKeys("Cennai");
+		p.getCreditcardnumber().sendKeys("1234567891234567");
+		p.getCardtype().sendKeys("AMEX");
+		p.getExpiraymonth().sendKeys("Nov");
+		p.getExperiyyear().sendKeys("2023");
+		p.getCvv().sendKeys("345");
+		p.getBooknow().click();
+		
+	}
+
+}

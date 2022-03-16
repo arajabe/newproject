@@ -1,0 +1,38 @@
+package org.pageobjectmodel;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+ static WebDriver driver;
+ @BeforeClass
+ public void browserConfiguration() {
+	 WebDriverManager.chromedriver().setup();
+	 //driver =new ChromeDriver();
+	 //driver.manage().window().maximize();	 
+ }
+ @BeforeMethod
+ public void browserLaunching() {
+	 //driver.get("http://www.adactin.com/HotelApp");
+	 Date d = new Date();
+	 SimpleDateFormat sdf = new SimpleDateFormat("mm,dd,yyyy");
+	 String da = sdf.format(d);
+	 System.out.println(da); 
+ }
+ 
+	@Test
+	public void Login() {
+		
+		System.out.println("print");
+		
+	}
+
+}

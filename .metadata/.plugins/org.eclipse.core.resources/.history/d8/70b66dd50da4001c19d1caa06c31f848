@@ -1,0 +1,37 @@
+package org.webtable;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+
+
+
+		@Test
+		public void browserLaunhing() {
+			WebDriverManager.chromedriver().setup();
+			WebDriver driver = new ChromeDriver();
+			driver.get("http://demo.guru99.com/test/write-xpath-table.html");
+			WebElement findElement = driver.findElement(By.xpath("/html/body/center/table/tbody/tr[1]/td[2]"));
+		List<WebElement> findElements = driver.findElements(By.xpath("/html/body/center/table"));
+		for (WebElement webElement : findElements) {
+			System.out.println(webElement.getText());
+			
+		}	
+		
+			System.out.println(findElement.getText());
+			
+		}
+		}
+
+
+
+
+}

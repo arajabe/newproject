@@ -1,0 +1,9 @@
+package org.pageobject;
+
+public class ExcelData {
+
+	public ExcelData() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

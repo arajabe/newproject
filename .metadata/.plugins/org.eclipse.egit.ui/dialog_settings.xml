@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="MIXED" key="ResetTargetSelectionDialog.resetType"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/arajabe/newproject.git"/>
+		<item value="https://github.com/arajabe/sampleproject.git"/>
+		<item value="https://github.com/arajabe/arajabeproject.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="728" key="DIALOG_HEIGHT"/>
+		<item value="422" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="PushToGerritPage">
+		<item value="master" key="Repository[C:\Users\VRKRISH\git\newproject\.git].lastBranch"/>
+		<item value="https://github.com/arajabe/newproject.git" key="Repository[C:\Users\VRKRISH\git\newproject\.git].lastUri"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="-7" key="DIALOG_X_ORIGIN"/>
+		<item value="-110" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="666" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="458" key="DIALOG_HEIGHT"/>
+		<item value="358" key="DIALOG_X_ORIGIN"/>
+		<item value="67" key="DIALOG_Y_ORIGIN"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\VRKRISH\eclipse-workspace\JunitTest6\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\VRKRISH\eclipse-workspace\10WindowHandle\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\VRKRISH\eclipse-workspace\JunitTest5\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\VRKRISH\git\newproject\.git">
+			<item value="false"/>
+			<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+			<item value="hello"/>
+			<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+			<item value="ab11f4b6f77518a4ec9b1e7e2ba9dc51f738693d"/>
+			<item value="0"/>
+		</list>
+		<list key="C:\Users\VRKRISH\git\sampleproject\.git">
+			<item value="false"/>
+			<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;hello"/>
+			<item value="arajabe &lt;arajabe@gmail.com&gt;"/>
+			<item value="3a65cc83390e8a36bc084bb2e2decc186dc64546"/>
+			<item value="0"/>
+		</list>
+		<list key="C:\Users\VRKRISH\git\arajabeproject\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="true" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

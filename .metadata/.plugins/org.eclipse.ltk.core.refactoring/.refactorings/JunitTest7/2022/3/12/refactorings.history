@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.junittest7.File&apos; to &apos;Fileexceldata&apos;&#x0D;&#x0A;- Original project: &apos;JunitTest7&apos;&#x0D;&#x0A;- Original element: &apos;org.junittest7.File&apos;&#x0D;&#x0A;- Renamed element: &apos;org.junittest7.Fileexceldata&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;File&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;org.junittest7{File.java[File" matchStrategy="1" name="Fileexceldata" qualified="false" references="true" similarDeclarations="false" stamp="1647151908895" textual="false" version="1.0"/>
+</session>

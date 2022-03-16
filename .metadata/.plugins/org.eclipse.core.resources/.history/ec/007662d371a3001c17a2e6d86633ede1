@@ -1,0 +1,62 @@
+package org.pageobjectmodel;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+ static WebDriver driver;
+ @BeforeClass
+ public void browserConfiguration() {
+	 WebDriverManager.chromedriver().setup();
+	 driver =new ChromeDriver();
+	 driver.manage().window().maximize();	 
+ }
+ @BeforeMethod
+ public void browserLaunching() {
+	 driver.get("http://www.adactin.com/HotelApp");
+	 Date d = new Date();
+	 SimpleDateFormat sdf = new SimpleDateFormat("mm,dd,yyyy");
+	 String da = sdf.format(d);
+	 System.out.println(da); 
+ }
+ 
+	@Test
+	public void Login() {
+		PageObject p=new PageObject();	
+		p.getUserid().sendKeys("arajabe1234");
+		p.getPassword().sendKeys("chennai");
+		p.getLoginbutton().click();
+		p.getLocation().sendKeys("mel");
+		p.getHotels().sendKeys("hotel sun");
+		p.getRoomtype().sendKeys("delu");
+		p.getNumberofrooms().sendKeys("1");
+		p.getCheckindate().sendKeys("14/05/2022");
+		p.getCheckoutdate().sendKeys("20/05/2022");
+p.getAdlt().sendKeys("1");		
+p.getChild().sendKeys("1");
+p.getSearch().click();
+p.getRadiobutton().click();
+p.getContinu().click();
+p.getFirstnamee().sendKeys("Raja");
+p.getLastnamee().sendKeys("Anbalagan");
+p.getAddress().sendKeys("kumbakonam");
+p.getCardnumber().sendKeys("1123456789234567");
+p.getCardtype().sendKeys("visa");
+p.getExpmonth().sendKeys("may");
+p.getExpyear().sendKeys("2023");
+p.getCvvnumber().sendKeys("123");
+p.getBooknow().click();
+p.getMyiti().click();
+
+
+	}
+
+}

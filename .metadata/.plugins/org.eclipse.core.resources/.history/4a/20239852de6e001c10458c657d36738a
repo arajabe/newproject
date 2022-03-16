@@ -1,0 +1,12 @@
+package org.sample;
+
+public class Sample {
+
+	public static void main(String arg[]) {
+		String a = new String();
+		System.out.println("print");
+		
+		
+	}
+
+}

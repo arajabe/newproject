@@ -1,0 +1,57 @@
+package org.junittest7;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Date;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+	static WebDriver driver;
+	static int i=0;
+	static int j=0;
+	@BeforeClass
+	public static void browserConfiguraton() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		}
+	@Before
+	public void browserLaunching() {
+		driver.get("http://www.adactin.com/HotelApp/");
+		Date d = new Date();
+		System.out.println(d);
+		
+	}
+@Test
+public void loginPage() throws IOException {
+	PageObjectModel p = new PageObjectModel();
+	Fileexceldata f = new Fileexceldata();
+	p.getUserid().sendKeys(f.filedata());
+	p.getPassword().sendKeys(f.filedata());
+	p.getLoginbutton().click();
+	p.getLocation().sendKeys(f.fileDataTwo());
+	p.getHotels().sendKeys(f.fileDataTwo());
+	p.getRoomtypes().sendKeys(f.fileDataTwo());
+p.getNumberofrooms().sendKeys(f.fileDataTwo());
+p.getCheckindate().sendKeys(f.fileDataTwo());
+p.getCheckoutdate().sendKeys(f.fileDataTwo());
+p.getAdult().sendKeys(f.fileDataTwo());
+p.getChild().sendKeys(f.fileDataTwo());
+p.getSearch().click();
+}
+
+}

@@ -1,0 +1,12 @@
+package org.pageobjectmodel;
+
+public class MainClass {
+ static WebDriver driver;
+ @BeoferClass
+ public void browserLaunching() {
+	 
+	 
+ }
+	
+
+}

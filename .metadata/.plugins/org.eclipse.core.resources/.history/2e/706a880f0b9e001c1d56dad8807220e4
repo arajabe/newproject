@@ -1,0 +1,56 @@
+package org.junittest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class  PageObjectModel extends MainClass{
+
+	public PageObjectModel() {
+		PageFactory.initElements(driver, this);
+		}
+@FindBy(xpath="//img[@class='banner-image']")private WebElement registerationimage;
+@FindBy	(xpath="//a[@class='btn btn-primary-shadow btn-block']")private WebElement registerationbtn;
+@FindBy(xpath="//label[@for='first-name']") private WebElement firstname;
+@FindBy(xpath="//label[@for='last-name']")private WebElement lastname;
+@FindBy(xpath="//input[@id='email']")private WebElement email;
+@FindBy(xpath="//input[@id='mobile']")private WebElement mobilenumber;
+@FindBy(xpath="//select[@name='country']")private WebElement country;
+@FindBy(xpath="//label[@for='city']")private WebElement city;
+@FindBy(xpath="//label[@for='message']")private WebElement message;
+@FindBy(xpath="//label[@for='code']")private WebElement code;
+@FindBy(xpath="//button[@class='btn btn-block btn-primary']")private WebElement send;
+public WebElement getRegisterationimage() {
+	return registerationimage;
+}
+public WebElement getRegisterationbtn() {
+	return registerationbtn;
+}
+public WebElement getFirstname() {
+	return firstname;
+}
+public WebElement getLastname() {
+	return lastname;
+}
+public WebElement getEmail() {
+	return email;
+}
+public WebElement getMobilenumber() {
+	return mobilenumber;
+}
+public WebElement getCountry() {
+	return country;
+}
+public WebElement getCity() {
+	return city;
+}
+public WebElement getMessage() {
+	return message;
+}
+public WebElement getCode() {
+	return code;
+}
+public WebElement getSend() {
+	return send;
+}
+}

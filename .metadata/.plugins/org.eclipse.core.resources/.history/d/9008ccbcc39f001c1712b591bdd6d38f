@@ -1,0 +1,9 @@
+package org.pageobject;
+
+public class SubMain {
+
+	public SubMain() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

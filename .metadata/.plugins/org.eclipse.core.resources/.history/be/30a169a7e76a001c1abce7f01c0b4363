@@ -1,0 +1,9 @@
+package org.network;
+
+public class Wifi {
+
+	public Wifi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

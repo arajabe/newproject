@@ -1,0 +1,25 @@
+package org.junittest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class  PageObjectModel extends MainClass{
+
+	public PageObjectModel() {
+		PageFactory.initElements(driver, this);
+		}
+	@FindBy	(xpath="//input[@class='_2IX_2- VJZDxU']")private WebElement mobile;
+	@FindBy	(xpath="//input[@type='password']")private WebElement password;
+	@FindBy	(xpath="//button[@class='_2KpZ6l _2HKlqd _3AWRsL']\")]")private WebElement button;
+	public WebElement getMobile() {
+		return mobile;
+	}
+	public WebElement getPassword() {
+		return password;
+	}
+	public WebElement getButton() {
+		return button;
+	}
+
+}

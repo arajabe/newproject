@@ -1,0 +1,9 @@
+package org.pageobject;
+
+public class PageObjectMod {
+
+	public PageObjectMod() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

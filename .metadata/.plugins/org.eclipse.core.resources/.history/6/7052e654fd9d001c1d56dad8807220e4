@@ -1,0 +1,15 @@
+package org.junittest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class  PageObjectModel extends MainClass{
+
+	public PageObjectModel() {
+		PageFactory.initElements(driver, this);
+		}
+@FindBy(xpath="//img[@class='banner-image']")private WebElement registerationimage;
+@FindBy	(xpath="//a[@class='btn btn-primary-shadow btn-block']")private WebElement registerationbtn;
+
+}

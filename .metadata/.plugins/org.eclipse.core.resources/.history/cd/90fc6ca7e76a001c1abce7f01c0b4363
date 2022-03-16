@@ -1,0 +1,9 @@
+package org.network;
+
+public class Lan {
+
+	public Lan() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

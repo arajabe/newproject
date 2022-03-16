@@ -1,0 +1,9 @@
+package org.network;
+
+public class modamName {
+
+	public modamName() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

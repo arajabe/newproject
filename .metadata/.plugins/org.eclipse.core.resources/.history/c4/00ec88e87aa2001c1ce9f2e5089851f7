@@ -1,0 +1,34 @@
+package org.junittest6;
+
+import java.util.Date;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguraton() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		}
+	@Before
+	public void browserLaunching() {
+		driver.get("http://www.adactin.com/HotelApp/");
+		Date d = new Date();
+		System.out.println(d);
+	}
+	@Test
+	public void loginPage(){
+		System.out.println("print");
+		
+		
+	}
+
+}

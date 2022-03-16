@@ -1,0 +1,35 @@
+package org.reversenujmber;
+
+import java.util.Scanner;
+
+public class ReverseNumber {
+
+	public void reverseNumber(int x) {
+		int y=1;
+		int	n=1;
+		for (int i=1;i<=x;i++) {
+			if (x/y>0) {
+				y=y*10;
+				n=i-1;
+			}
+			}
+		int c[]= new int[n+1];
+		int w;
+		for (int j=n; j>=0; j--) {
+			w = (int) Math.pow(10, j);
+			c[j]=x/w;
+			x=x%w;
+			}
+		for (int o=0;o>=n;o--) {
+		System.out.print(c[o]);}
+	}
+	public static void main(String arg[]) {
+		ReverseNumber a=new ReverseNumber();
+		System.out.println("Enter Number tobe reversed");
+		Scanner sc= new Scanner(System.in);
+		int z=sc.nextInt();
+		a.reverseNumber(z);
+		
+	}
+
+}

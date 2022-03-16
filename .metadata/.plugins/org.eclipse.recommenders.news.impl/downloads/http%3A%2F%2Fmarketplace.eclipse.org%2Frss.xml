@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>https://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Eclipse aCute: C# development tools</title>
+    <link>https://marketplace.eclipse.org/content/eclipse-acute-c-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/csharp_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mistria/listings&quot; title=&quot;Mickael Istria&quot;&gt;Mickael Istria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-01-26 10:22&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2022-03-16 04:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20aCute%20contributors%22&quot;&gt;Eclipse aCute contributors&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Eclipse aCute enables &lt;strong&gt;C#&lt;/strong&gt; application development in the Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;aCute provides a &lt;strong&gt;rich C# editor&lt;/strong&gt; with error reporting, hover, content assist, jump to references... (using OmniSharp) and syntax highlighting (using TextMate grammar).&lt;br /&gt;
+aCute also integrates various operations of the `dotnet` command-line (&lt;strong&gt;New, Run, Test, Publish&lt;/strong&gt;) as typical Eclipse IDE wizards and workflows.&lt;br /&gt;
+aCute provide supports&lt;strong&gt; debugging&lt;/strong&gt; for .NET applications&lt;/p&gt;
+&lt;p&gt;aCute is in an Eclipse.org project: &lt;a href=&quot;https://projects.eclipse.org/projects/tools.acute&quot; rel=&quot;nofollow&quot;&gt;https://projects.eclipse.org/projects/tools.acute&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 26 Jan 2017 15:22:41 +0000</pubDate>
+ <dc:creator>mistria</dc:creator>
+ <guid isPermaLink="false">3269902 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/eclipse-acute-c-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>RPM</title>
+    <link>https://marketplace.eclipse.org/content/rpm</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/akurtakov/listings&quot; title=&quot;Alexander Kurtakov&quot;&gt;Alexander Kurtakov&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2019-03-06 03:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2022-03-16 04:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%20Inc.%22&quot;&gt;Red Hat Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;RPM integration consist of few different parts - editor for RPM .spec files, UI for createrepo command and ability to generate stubs for RPM .spec files.&lt;/p&gt;
+&lt;p&gt;Specfile Editor is a full featured editor for RPM spec files. Specfiles are the files that tell the rpm program which are the sources for this package, how to build, where to install, additional scripts to execute on install/uninstall and so on. This plugin provides all the basic features for editing or modifing such specfile.&lt;/p&gt;
+&lt;p&gt;Information needed for creating RPM specfile is present in a number of different files that are part of the upstream sources. Good examples are Eclipse feature.xml files and Maven pom.xml files. And this plugin does exactly that - creates a RPM specfile from the information in these files.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 06 Mar 2019 08:20:32 +0000</pubDate>
+ <dc:creator>akurtakov</dc:creator>
+ <guid isPermaLink="false">4529724 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/rpm#comments</comments>
+  </item>
+  <item>
+    <title>Oxygen XML Developer</title>
+    <link>https://marketplace.eclipse.org/content/oxygen-xml-developer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Developer128%402x.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingname6n5/listings&quot; title=&quot;OxygenXML SyncroSoft&quot;&gt;OxygenXML SyncroSoft&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2020-02-11 09:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2022-03-15 08:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Syncro%20Soft%22&quot;&gt;Syncro Soft&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Intelligent XML Editor.&lt;/h2&gt;
+&lt;p&gt;Oxygen XML Developer is the class leading tool dedicated to XML development, focusing on XML source editing, Schema design and XSLT editing/debugging. It offers powerful support to help you edit, transform, and debug XML based documents, making XML development easy and effective. A WSDL editor is also available, providing a specialized Content Completion Assistant and Outline view, along with many other helpful features.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 11 Feb 2020 14:08:01 +0000</pubDate>
+ <dc:creator>omisingname6n5</dc:creator>
+ <guid isPermaLink="false">4981437 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/oxygen-xml-developer#comments</comments>
+  </item>
+  <item>
+    <title>Oxygen XML Author</title>
+    <link>https://marketplace.eclipse.org/content/oxygen-xml-author</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Author128%402x.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingname6n5/listings&quot; title=&quot;OxygenXML SyncroSoft&quot;&gt;OxygenXML SyncroSoft&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2020-02-11 09:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2022-03-15 08:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Syncro%20Soft%22&quot;&gt;Syncro Soft&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Single-Source XML Authoring and Multi-Channel Publishing.&lt;/h2&gt;
+&lt;p&gt;Oxygen XML Author sets new standards among content authoring tools, introducing many user-friendly authoring features and providing an easy-to-use interface. Taking advantage of XML technologies has never been easier. With Oxygen you have access to XML-based standard frameworks, preset transformation scenarios, and unmatched extensibility and connectivity.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 11 Feb 2020 14:25:09 +0000</pubDate>
+ <dc:creator>omisingname6n5</dc:creator>
+ <guid isPermaLink="false">4981460 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/oxygen-xml-author#comments</comments>
+  </item>
+  <item>
+    <title>Oxygen XML Editor</title>
+    <link>https://marketplace.eclipse.org/content/oxygen-xml-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Oxygen128%402x_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingname6n5/listings&quot; title=&quot;OxygenXML SyncroSoft&quot;&gt;OxygenXML SyncroSoft&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-02-06 08:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2022-03-15 08:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Syncro%20Soft%22&quot;&gt;Syncro Soft&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;The Premier All-In-One XML Editing Suite.&lt;/h2&gt;
+&lt;p&gt;Oxygen XML Editor is the best XML editor available and provides a comprehensive suite of XML authoring and development tools. It is designed to accommodate a large number of users, ranging from beginners to XML experts. It is available on multiple platforms, all major operating systems, and as a standalone application or an Eclipse plug-in. You can use Oxygen XML Editor in conjunction with all XML-based technologies and it includes a large variety of powerful tools for creating, editing, and publishing XML documents.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 06 Feb 2020 13:55:45 +0000</pubDate>
+ <dc:creator>omisingname6n5</dc:creator>
+ <guid isPermaLink="false">4975894 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/oxygen-xml-editor#comments</comments>
+  </item>
+  <item>
+    <title>Jenkins Editor</title>
+    <link>https://marketplace.eclipse.org/content/jenkins-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/jenkins-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-28 18:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2022-03-14 10:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Jenkins editor is just a jenkins build script editor plugin for eclipse&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Code completion and tooltips (for Jenkins DSL)&lt;/li&gt;
+&lt;li&gt;Syntax highlighting, customizable colors, pre defined default for Dark Theme&lt;/li&gt;
+&lt;li&gt;Groovy syntax validation&lt;/li&gt;
+&lt;li&gt;Validate by Jenkins Linter directly from editor by context menu or toolbar&lt;/li&gt;
+&lt;li&gt;Replay pipeline script and/or fetch latest log from pipeline build by main toolbar actions&lt;/li&gt;
+&lt;li&gt;Own console for log outputs&lt;/li&gt;
+&lt;li&gt;Execute jenkins-cli actions by editor console toolbar action&lt;/li&gt;
+&lt;li&gt;Bracket switching (CTRL + p)&lt;/li&gt;
+&lt;li&gt;Outline + Quick outline (CTRL + o) for declarative pipelines&lt;/li&gt;
+&lt;li&gt;Block commenting (CTRL + 7)&lt;/li&gt;
+&lt;li&gt;Todo Task support&lt;/li&gt;
+&lt;li&gt;File associations to &quot;Jenkinsfile&quot;, &quot;*.jenkins&quot;, &quot;*.jenkinsfile&quot;&lt;/li&gt;
+&lt;li&gt;Shortcut buttons In preferences to create new API tokens and to download new jenkins-cli.jar directly&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;Where can I get more information about the plugin ?&lt;/h4&gt;
+&lt;p&gt;Please look into&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-jenkins-editor/issues&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Issue tracker (GitHub)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-jenkins-editor/wiki&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Wiki (GitHub)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tEzPHW9fC69uqtnHPK6eiOz&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Video play list (YouTube)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;What has changed between releases, what&#039;s new ?&lt;/h4&gt;
+&lt;p&gt;Please look into &lt;a href=&quot;https://github.com/de-jcup/eclipse-jenkins-editor/releases&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Release history (GitHub)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 28 Sep 2017 22:05:33 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3680354 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/jenkins-editor#comments</comments>
+  </item>
+  <item>
+    <title>EGradle Editor</title>
+    <link>https://marketplace.eclipse.org/content/egradle-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/EGradle-Profile-Image-Editor-Marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-06-14 06:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2022-03-14 10:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;EGradle Editor as standalone plugin, so other IDEs can use the editor implementation as well or users just install the editor.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://marketplace.eclipse.org/content/egradle-ide&quot; rel=&quot;nofollow&quot;&gt;EGradle IDE&lt;/a&gt; does contain this editor which has much features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Code completion and tooltips&lt;/li&gt;
+&lt;li&gt;Syntax highlighting
+&lt;ul&gt;&lt;li&gt;Supporting Java, Groovy, Gradle keywords, GroovyDoc etc.&lt;/li&gt;
+&lt;li&gt;Colors customizable&lt;/li&gt;
+&lt;li&gt;Also additional default colors for dark theme&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Outline view + Quick outline&lt;/li&gt;
+&lt;li&gt;Parse error handling&lt;/li&gt;
+&lt;li&gt;Bracket switching and highlighting, auto close on curly brackets&lt;/li&gt;
+&lt;li&gt;Block comments (CTRL + 7)&lt;/li&gt;
+&lt;li&gt;Hyperlinking to other gradle files, URLs, Java and Groovy types&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Additional Links&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/wiki&quot; rel=&quot;nofollow&quot;&gt;EGradle Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rawgit.com/de-jcup/egradle/master/egradle-plugin-main/html/user_guide/editor.html&quot; rel=&quot;nofollow&quot;&gt;Online help preview (master branch)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLnO8pgGpD7DlvsszAIjM26_2_0B9VJV4n&quot; rel=&quot;nofollow&quot;&gt;Tutorial playlist on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://plus.google.com/u/0/b/110015234908380752132/collection/s8j0ME&quot; rel=&quot;nofollow&quot;&gt;EGradle news at Google+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/issues&quot; rel=&quot;nofollow&quot;&gt;Issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle&quot; rel=&quot;nofollow&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 14 Jun 2017 10:02:03 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3493769 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/egradle-editor#comments</comments>
+  </item>
+  <item>
+    <title>EGradle IDE</title>
+    <link>https://marketplace.eclipse.org/content/egradle-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/EGradle-Profile-Image-Marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2016-09-13 14:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2022-03-14 10:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;EGradle is a lightweight, fast and comfortable gradle integration for eclipse&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+Features overview
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Console and Eclipse can be used parallel without conflicts&lt;/li&gt;
+&lt;li&gt;New Project Wizard
+&lt;ul&gt;&lt;li&gt;Build in templates for full java projects (single and multi project)&lt;/li&gt;
+&lt;li&gt;Possibility to create custom templates &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.eclipse.org/content/egradle-editor&quot; rel=&quot;nofollow&quot;&gt;EGradle Editor&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Syntax highlighting
+&lt;ul&gt;&lt;li&gt;Supporting Java, Groovy, Gradle keywords, GroovyDoc etc.&lt;/li&gt;
+&lt;li&gt;Colors customizable&lt;/li&gt;
+&lt;li&gt;Also additional default colors for dark theme&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Outline view + Quick outline&lt;/li&gt;
+&lt;li&gt;Code completion and tooltips&lt;/li&gt;
+&lt;li&gt;Parse error handling&lt;/li&gt;
+&lt;li&gt;Bracket switching and highlighting, auto close on curly brackets&lt;/li&gt;
+&lt;li&gt;Block comments (CTRL + 7)&lt;/li&gt;
+&lt;li&gt;Hyperlinking to other gradle files, URLs, Java and Groovy types&lt;/li&gt;
+&lt;li&gt;Shows project names in build.gradle title (so easier to navigate - can be turned off in preferences)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Gradle execution
+&lt;ul&gt;&lt;li&gt;Launch configurations&lt;/li&gt;
+&lt;li&gt;Quick launch&lt;/li&gt;
+&lt;li&gt;Compile and evaluation errors occurring at launch time are marked in editor and error view&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JUnit Integration
+&lt;ul&gt;&lt;li&gt;Launch tests
+&lt;ul&gt;&lt;li&gt;Toolbar icon to launch all tests&lt;/li&gt;
+&lt;li&gt;By launch configurations&lt;/li&gt;
+&lt;li&gt;Launch from editor&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Launched tests results are automatically shown in junit result&lt;/li&gt;
+&lt;li&gt;Import all junit results from existing console gradle build results to JUnit view by one click&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Virtual root project&lt;/li&gt;
+&lt;li&gt;Synchronization by one click&lt;/li&gt;
+&lt;li&gt;Keywords are highlighted in Console&lt;/li&gt;
+&lt;li&gt;Integrated eclipse help&lt;/li&gt;
+&lt;li&gt;Multiple ways to import gradle projects&lt;/li&gt;
+&lt;li&gt;Can automatically set build folders as &quot;derived&quot;&lt;/li&gt;
+&lt;li&gt;Rebuild working sets on re-importing gradle projects&lt;/li&gt;
+&lt;/ul&gt;
+Additional Links
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/wiki&quot; rel=&quot;nofollow&quot;&gt;EGradle Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rawgit.com/de-jcup/egradle/master/egradle-plugin-main/html/toc.html&quot; rel=&quot;nofollow&quot;&gt;Online help preview (master branch)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLnO8pgGpD7DlvsszAIjM26_2_0B9VJV4n&quot; rel=&quot;nofollow&quot;&gt;Tutorial playlist on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://plus.google.com/u/0/b/110015234908380752132/collection/s8j0ME&quot; rel=&quot;nofollow&quot;&gt;EGradle news at Google+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/issues&quot; rel=&quot;nofollow&quot;&gt;Issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/egradle&quot; rel=&quot;nofollow&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 13 Sep 2016 18:26:23 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3071167 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/egradle-ide#comments</comments>
+  </item>
+  <item>
+    <title>DBeaver EE</title>
+    <link>https://marketplace.eclipse.org/content/dbeaver-ee</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Enterprise_icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/sriderdp1/listings&quot; title=&quot;Serge Rider&quot;&gt;Serge Rider&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2017-11-18 13:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2022-03-14 05:57&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DBeaver%20Corp%22&quot;&gt;DBeaver Corp&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;DBeaver Enterprise Edition.&lt;/p&gt;
+&lt;p&gt;Includes all features of DBeaver Community plus:&lt;br /&gt;
+- NoSQL/BigData databases:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;li&gt;DynamoDB&lt;/li&gt;
+&lt;li&gt;DocumentDB&lt;/li&gt;
+&lt;li&gt;Keyspaces&lt;/li&gt;
+&lt;li&gt;Bigtable&lt;/li&gt;
+&lt;li&gt;Cassandra&lt;/li&gt;
+&lt;li&gt;Couchbase&lt;/li&gt;
+&lt;li&gt;CouchDB&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;InfluxDB&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;- Enterprise extensions for:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Netezza&lt;/li&gt;
+&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;li&gt;Oracle&lt;/li&gt;
+&lt;li&gt;Informix&lt;/li&gt;
+&lt;li&gt;Hive&lt;/li&gt;
+&lt;li&gt;Redshift&lt;/li&gt;
+&lt;li&gt;Teradata&lt;/li&gt;
+&lt;li&gt;SQLiteCrypt&lt;/li&gt;
+&lt;li&gt;Snowflake&lt;/li&gt;
+&lt;li&gt;SAP HANA&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;- Advanced features for SQL Server, Oracle, Natezza and PostgreSQL&lt;br /&gt;
+- Advanced extensions (office integration, SVG export, SSHJ)&lt;br /&gt;
+- Visual Query Builder&lt;br /&gt;
+- Visual SQL execution plan analysis&lt;br /&gt;
+- Database schema compare / migrate tool&lt;br /&gt;
+- Table data compare&lt;br /&gt;
+- Data compare tool&lt;br /&gt;
+- Mock data generator&lt;br /&gt;
+- Advanced tasks management&lt;br /&gt;
+- Task scheduler&lt;br /&gt;
+- Advanced dashboards&lt;br /&gt;
+- Persistent SQL history management&lt;br /&gt;
+- Kerberos and Active Directory authentication (PostgreSQL, MariaDB, Oracle, Presto)&lt;br /&gt;
+- Multi-factor authentication supoport&lt;br /&gt;
+- Proxy configuration/auto-detection&lt;br /&gt;
+- Secured passwords storage&lt;br /&gt;
+- Git integration&lt;br /&gt;
+- 3rd-party JDBC drivers&lt;br /&gt;
+- Online customer support&lt;/p&gt;
+&lt;p&gt;Standalone version available on &lt;a href=&quot;https://dbeaver.com/download&quot; rel=&quot;nofollow&quot;&gt;https://dbeaver.com/download&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 18 Nov 2017 18:47:50 +0000</pubDate>
+ <dc:creator>sriderdp1</dc:creator>
+ <guid isPermaLink="false">3775863 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/dbeaver-ee#comments</comments>
+  </item>
+  <item>
+    <title>Spark Builder Generator</title>
+    <link>https://marketplace.eclipse.org/content/spark-builder-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/sparkbuildergeneratoricon.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hsparkwpb/listings&quot; title=&quot;Helo Spark&quot;&gt;Helo Spark&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-10-23 07:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2022-03-14 03:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Generates a builder according to the GoF pattern for Java domain objects.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Generates a builder with custom name patterns&lt;/li&gt;
+&lt;li&gt;Can generate &lt;a href=&quot;http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java&quot; rel=&quot;nofollow&quot;&gt;staged builder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Capable of regenerating the builder&lt;/li&gt;
+&lt;li&gt;Compatible with most version of Eclipse&lt;/li&gt;
+&lt;li&gt;Highly configurable, check the plugin&#039;s preferences page&lt;/li&gt;
+&lt;li&gt;Capable of generate builder methods for visible fields in superclass&lt;/li&gt;
+&lt;li&gt;Encourages and supports null-safe programming practices&lt;/li&gt;
+&lt;li&gt;Open source (with very permissible MIT license)&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;strong&gt;Usage&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;To invoke the generation have a Java file active and press either the icon on the toolbar (the hammer) or Ctrl+Shift+B.&lt;br /&gt;
+You can click the small arrow next to the main icon to generate a different builder type (like staged builder), if you usually generate a certain kind of builder, set the default builder in the preferences page.&lt;br /&gt;
+You can set the preferences under: &lt;strong&gt;&lt;em&gt;Window-&amp;gt;Preferences-&amp;gt;Java-&amp;gt;Spark Builder Generator&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Example result:&lt;/strong&gt;&lt;/h2&gt;
+&lt;pre&gt;
+  public class Clazz {
+        private Integer firstField;
+        private Long secondField;
+        @Generated(&quot;SparkTools&quot;)
+        private Clazz(Builder builder) {
+            this.firstField = builder.firstField;
+            this.secondField = builder.secondField;
+        }
+        /**
+         * Creates builder to build {@link Clazz}.
+         * @return created builder
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static Builder builder() {
+            return new Builder();
+        }
+        /**
+         * Builder to build {@link Clazz}.
+         */
+        @Generated(&quot;SparkTools&quot;)
+        public static class Builder {
+            private Integer firstField;
+            private Long secondField;
+
+            private Builder() {
+            }
+
+            /**
+            * Builder method for firstField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withFirstField(@Nonnull Integer firstField) {
+                this.firstField = firstField;
+                return this;
+            }
+
+            /**
+            * Builder method for secondField parameter.
+            * @return builder
+            */
+            @Nonnull
+            public Builder withSecondField(@Nonnull Long secondField) {
+                this.secondField = secondField;
+                return this;
+            }
+
+            /**
+            * Builder method of the builder.
+            * @return built class
+            */
+            @Nonnull
+            public Clazz build() {
+                return new Clazz(this);
+            }
+        }
+    }
+&lt;/pre&gt;&lt;h2&gt;&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;0.0.5&lt;/strong&gt; Added handling for code style prefix and suffix, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/5&quot; rel=&quot;nofollow&quot;&gt;Github issue 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.6&lt;/strong&gt; Added staged builder support., see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/4&quot; rel=&quot;nofollow&quot;&gt;Github issue 4&lt;/a&gt; Staged builder allows you to verify that all of the mandatory fields are set at compile time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.7&lt;/strong&gt; Option to add visible fields from superclasses to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/7&quot; rel=&quot;nofollow&quot;&gt;Github issue 7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.8&lt;/strong&gt; Fixed regression bug that was introduced in 0.0.7. While collection visible fields from superclasses, under some Eclipse configurations IllegalArgumentException occurred during java.lang.Object parsing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.9&lt;/strong&gt; Added option to generate builder to selected class (in case of nested classes, or multiple classes in a single file), see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/10&quot; rel=&quot;nofollow&quot;&gt;Github issue 10&lt;/a&gt; Improvements to previous Builder class removing logic&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.10&lt;/strong&gt; Added the option to select which fields are generated in the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/8&quot; rel=&quot;nofollow&quot;&gt;Github issue 8&lt;/a&gt;&lt;br /&gt;
+Fixed a small bug that deleted the previous builder when pressing the cancel button on the staging builder generator dialog Added MIT license file to plugin&#039;s site.xml, so it will show up on installation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.11 &lt;/strong&gt;Initialize Optional value to Optional.empty() to follow nullsafe programming practices&lt;br /&gt;
+Initialize Collections with empty collections via java.util.Collections class&lt;br /&gt;
+Various bugfixes related to overriding previous builder&lt;br /&gt;
+Logging improvement&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.12&lt;/strong&gt; Generate @param tag to the builder&#039;s &quot;with&quot; methods, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/28&quot; rel=&quot;nofollow&quot;&gt;Github issue 28&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.13&lt;/strong&gt; Add fields from superclass&#039; constructor to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/30&quot; rel=&quot;nofollow&quot;&gt;Github issue 30&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.14 &lt;/strong&gt;Add the ability to create a builder based on an already existing instance, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/33&quot; rel=&quot;nofollow&quot;&gt;Github issue 33&lt;/a&gt;&lt;br /&gt;
+Dialog UX update&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.15 &lt;/strong&gt;Add builder fields for private fields in superclass that have setters, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/35&quot; rel=&quot;nofollow&quot;&gt;Github issue 35&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.16 &lt;/strong&gt;Generate Jackson deserialize annotations to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/37&quot; rel=&quot;nofollow&quot;&gt;Github issue 37&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.17 &lt;/strong&gt;Generate default constructor, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/39&quot; rel=&quot;nofollow&quot;&gt;Github issue 39&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.18&lt;/strong&gt; Fixed dialog issue when combined with DevStyle Darkest Dark plugin &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/41&quot; rel=&quot;nofollow&quot;&gt;Github issue 41&lt;/a&gt;&lt;br /&gt;
+Also made dialogs more responsive&lt;br /&gt;
+Updated icon&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.19&lt;/strong&gt; Fixed ClassCastException when Java file includes an enum as the first type. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/44&quot; rel=&quot;nofollow&quot;&gt;Github issue 44&lt;/a&gt;&lt;br /&gt;
+Made builder not generate @JsonPOJOBuilder annotation when the default builder names are not overridden&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.20&lt;/strong&gt; Fixed regression issue introduced on older Eclipse version due to 0.0.19. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/46&quot; rel=&quot;nofollow&quot;&gt;Github issue 46&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.21&lt;/strong&gt; Option to generate public constructor for regular builder that includes mandatory fields. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/49&quot; rel=&quot;nofollow&quot;&gt;Github issue 49&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.22&lt;/strong&gt; Fixing incorrect field naming with underscore prefix. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/53&quot; rel=&quot;nofollow&quot;&gt;Github issue 53&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.23&lt;/strong&gt; Add option to keep custom methods in the builderclass, when the builder is regenerated, &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/57&quot; rel=&quot;nofollow&quot;&gt;Github issue 57&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;0.0.24&lt;/strong&gt; Add option to initialize builder fields with default value from the class&#039; field assignment. &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/60&quot; rel=&quot;nofollow&quot;&gt;Github issue 60&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Troubleshooting installation failure&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Here are some common reasons installation fails, and steps to resolve&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Connection timeout&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is a temporary problem, while accessing the update site. The server most of the times will be available again in a couple of minutes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You may try the FTP download site (see below)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;em&gt;For any other failure please contact me in the comments or Github.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installing via FTP update site&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In your Eclipse go to:&lt;/p&gt;
+&lt;p&gt;Help-&amp;gt;Install new software-&amp;gt;Copy and paste the following URI:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&quot; rel=&quot;nofollow&quot;&gt;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&lt;/a&gt;&lt;br /&gt;
+Select the latest version (should be under SparkTools category) and install.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Installing from backup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In case both FTP and HTTPS update sites are unavailable, you can install jar file from Mediafire backup:&lt;br /&gt;&lt;a href=&quot;http://www.mediafire.com/file/9nt6vh9l0o4bj7o/com.helospark.SparkBuilderGenerator_0.0.19.201810182013.jar&quot; rel=&quot;nofollow&quot;&gt;Latest backup&lt;/a&gt; (entire update site: &lt;a href=&quot;http://www.mediafire.com/folder/ya4g0y69b24vu/plugins&quot; rel=&quot;nofollow&quot;&gt;www.mediafire.com/folder/ya4g0y69b24vu/plugins&lt;/a&gt;)&lt;br /&gt;
+Locate the jar file, you wish to install (probably the latest), and copy it to your Eclipse&#039;s dropin folder.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Additional information:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;For feature request, bug reports please use the GitHub page: &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator&quot; rel=&quot;nofollow&quot;&gt;https://github.com/helospark/SparkBuilderGenerator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 23 Oct 2016 11:09:34 +0000</pubDate>
+ <dc:creator>hsparkwpb</dc:creator>
+ <guid isPermaLink="false">3130970 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/spark-builder-generator#comments</comments>
+  </item>
+  </channel>
+</rss>

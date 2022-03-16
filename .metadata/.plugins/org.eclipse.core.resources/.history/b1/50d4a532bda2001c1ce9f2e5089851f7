@@ -1,0 +1,27 @@
+package org.pageobjectmodel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+	static WebDriver driver;
+	@BeforeClass
+	public void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+	}
+	@BeforeMethod
+	public void browserLaunching(){
+		driver.get("https://demoqa.com");
+		
+		
+	}
+
+}

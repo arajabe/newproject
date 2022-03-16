@@ -1,0 +1,14 @@
+package org.datadriven6;
+
+import org.testng.annotations.Test;
+
+public class MainClass {
+
+	@Test
+	public void login() {
+		File f = new File("C:\\Users\\VRKRISH\\eclipse-workspace\\DataDriven6\\File\\SAMPLE - Copy.xlsx");
+		
+		
+	}
+
+}

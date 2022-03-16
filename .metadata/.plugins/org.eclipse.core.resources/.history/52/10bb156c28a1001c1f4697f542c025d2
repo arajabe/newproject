@@ -1,0 +1,59 @@
+package org.testngtest3;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+	WebDriver driver;
+	@BeforeClass
+		public void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver =new ChromeDriver();		
+	}
+	
+	@BeforeMethod
+	public void browserLaunching() {
+		driver.get("https://demoqa.com/");
+		driver.manage().window().maximize();
+		}
+
+	@Test
+	public void input() {
+		
+		WebElement log = driver.findElement(By.xpath("//img[@class='banner-image']"));
+		log.click();
+		String parentid = driver.getWindowHandle();
+		Set<String> allwindowsid = driver.getWindowHandles();
+		for (String eachid : allwindowsid) {
+			if(!parentid.equals(eachid)) {
+				driver.switchTo().window(eachid);
+				driver.manage().window().maximize();
+				PageObjectModel p= new PageObjectModel();
+				p.getGotoregisteration().click();
+			}
+		}		
+			}
+	@DataProvider(name="data")
+	public Object[][] data(){
+		return new Object[][]
+				{{"10","20"}}
+				
+				;}
+	
+		
+		
+	
+	
+	
+
+}

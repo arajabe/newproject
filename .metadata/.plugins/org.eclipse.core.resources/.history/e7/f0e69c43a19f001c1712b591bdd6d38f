@@ -1,0 +1,61 @@
+package org.pageobject;
+
+import java.util.Date;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+	}
+	@Before
+	public void browserLaunching() {
+		driver.get("http://www.greenstechnologys.com/");
+Date d = new Date();
+System.out.println("Browser Lauiching Date:"+d);
+	}
+	@Test
+	public void loginPage() throws InterruptedException {
+		
+		WebElement complete = driver.findElement(By.xpath("//strong[text()='COMPLETE PRACTICAL TRAINING']"));
+	WebElement training = driver.findElement(By.xpath("//h1[@style='font-size:22px;']"));
+		JavascriptExecutor js =(JavascriptExecutor)driver;
+	js.executeScript("arguments[0].scrollIntoView(false)", complete);
+	String text2 = complete.getText();
+	System.out.println(text2);
+	js.executeScript("arguments[0].scrollIntoView(true)", training);
+	WebElement certification = driver.findElement(By.xpath("//a[text()='Certifications']"));
+	certification.click();
+	WebElement selenium = driver.findElement(By.xpath("(//a[text()='Course Content'])[29]"));
+	selenium.click();
+	WebElement textimonial = driver.findElement(By.xpath("//a[text()='TESTIMONIALS']"));
+	textimonial.click();
+	WebElement paragaraph = driver.findElement(By.xpath("(//div[@class='testimonial-section'])[1]"));
+	String text = paragaraph.getText();
+	System.out.println("   Selenium   ");
+	System.out.println(text);
+	WebElement career = driver.findElement(By.xpath("(//a[@role='menuitem'])[27]"));
+	career.click();
+	}
+	@After
+	public void closingTime() {
+		Date d = new Date();
+		System.out.println("Browser Closing Date:"+d);
+		
+	}
+
+}

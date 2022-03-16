@@ -1,0 +1,46 @@
+package org.junittest;
+
+import java.util.Set;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByPartialLinkText;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+	static WebDriver driver;
+	@BeforeClass
+	public static void browserConfiguration() {
+		WebDriverManager.chromedriver().setup();
+	 driver = new ChromeDriver();
+		driver.get("https://demoqa.com/");	
+		driver.manage().window().maximize();
+	}
+	@Test
+	public void join() {
+		//WebElement registreationimg = driver.findElement(By.xpath("//img[@class='banner-image']"));
+		//registreationimg.click();
+		PageObjectModel p = new PageObjectModel();
+		p.getRegisterationimage().click();
+	String parentid = driver.getWindowHandle();
+	Set<String> allwindowsid = driver.getWindowHandles();
+	for (String eachid : allwindowsid) {
+	if(!parentid.equals(eachid)){
+		driver.switchTo().window(eachid);
+		p.getRegisterationbtn().click();
+		//WebElement registeration = driver.findElement(By.xpath("//a[@class='btn btn-primary-shadow btn-block']"));
+		//registeration.click();
+		p.getFirstname().sendKeys("raja");
+		
+		
+	}	
+	}
+		}
+	
+
+}

@@ -1,0 +1,105 @@
+package org.pageobjectmodel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class PageObject extends MainClass {
+
+	public PageObject() {
+	PageFactory.initElements(driver, this);
+	}
+@FindBy(xpath="//input[@name='username']") private WebElement userid;
+@FindBy(xpath="(//input[@class='login_input'])[2]")private WebElement password;
+@FindBy(xpath="//input[@class='login_button']")private WebElement loginbutton;
+@FindBy(xpath="//select[@name='location']")private WebElement location;
+@FindBy(xpath="//select[@name='hotels']") private WebElement hotels;
+@FindBy(xpath="//select[@name='room_type']")private WebElement roomtype;
+@FindBy(xpath="//select[@name='room_nos']") private WebElement numberofrooms;
+@FindBy(xpath="//input[@name='datepick_in']") private WebElement checkindate;
+@FindBy(xpath="//input[@name='datepick_out']") private WebElement checkoutdate;
+@FindBy(xpath="//select[@name='adult_room']") private WebElement adlt;
+@FindBy(xpath="//select[@name='child_room']")private WebElement child;
+@FindBy(xpath="//input[@name='Submit']")private WebElement search;
+@FindBy(xpath="//input[@name='radiobutton_0']")private WebElement radiobutton;
+@FindBy(xpath="//input[@name='continue']")private WebElement continu; 
+@FindBy(xpath="//input[@name='first_name']")private WebElement firstnamee;
+@FindBy(xpath="//input[@name='last_name']")private WebElement lastnamee;
+@FindBy(xpath="//textarea[@name='address']") private WebElement address;
+@FindBy(xpath="//input[@name='cc_num']")private WebElement cardnumber;
+@FindBy(xpath="//select[@name='cc_type']") private WebElement cardtype;
+@FindBy(xpath="//select[@name='cc_exp_month']") private WebElement expmonth;
+@FindBy(xpath="//select[@name='cc_exp_year']")private WebElement expyear;
+@FindBy(xpath="//input[@name='cc_cvv']") private WebElement cvvnumber;
+@FindBy(xpath="//input[@type='button']")private WebElement booknow;
+public WebElement getUserid() {
+	return userid;
+}
+public WebElement getPassword() {
+	return password;
+}
+public WebElement getLoginbutton() {
+	return loginbutton;
+}
+public WebElement getLocation() {
+	return location;
+}
+public WebElement getHotels() {
+	return hotels;
+}
+public WebElement getRoomtype() {
+	return roomtype;
+}
+public WebElement getNumberofrooms() {
+	return numberofrooms;
+}
+public WebElement getCheckindate() {
+	return checkindate;
+}
+public WebElement getCheckoutdate() {
+	return checkoutdate;
+}
+public WebElement getAdlt() {
+	return adlt;
+}
+public WebElement getChild() {
+	return child;
+}
+public WebElement getSearch() {
+	return search;
+}
+public WebElement getRadiobutton() {
+	return radiobutton;
+}
+public WebElement getContinu() {
+	return continu;
+}
+public WebElement getFirstnamee() {
+	return firstnamee;
+}
+public WebElement getLastnamee() {
+	return lastnamee;
+}
+public WebElement getAddress() {
+	return address;
+}
+public WebElement getCardnumber() {
+	return cardnumber;
+}
+public WebElement getCardtype() {
+	return cardtype;
+}
+public WebElement getExpmonth() {
+	return expmonth;
+}
+public WebElement getExpyear() {
+	return expyear;
+}
+public WebElement getCvvnumber() {
+	return cvvnumber;
+}
+public WebElement getBooknow() {
+	return booknow;
+}
+
+}

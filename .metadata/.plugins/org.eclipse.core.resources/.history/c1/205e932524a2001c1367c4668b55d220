@@ -1,0 +1,51 @@
+package org.datadriven4;
+
+import java.io.File;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class MainClass {
+
+	@Test
+	public void createExcelFordemoqa() throws IOException {
+		File f = new File("C:\\Users\\VRKRISH\\eclipse-workspace\\DataDriven4\\File\\SAMPLE - Copy.xlsx");
+		FileOutputStream fos = new FileOutputStream(f);
+		Workbook w = new XSSFWorkbook();
+		Sheet Sheet = w.createSheet("demoqa");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Number of form to be filled:");
+		int n = sc.nextInt();
+		for(int i=0;i<n;i++) {
+			Row row = Sheet.createRow(i);
+			Cell cell0 = row.createCell(0);
+			System.out.println("Enter First Name:");
+			cell0.setCellValue(sc.nextLine());
+			Cell cell1 = row.createCell(1);
+			System.out.println("Enter Last Name:");
+			cell1.setCellValue(sc.nextLine());
+			Cell cell2 = row.createCell(2);
+			System.out.println("Enter Mobile Number:");	
+			cell2.setCellValue(sc.nextLine());	
+			Cell cell3 = row.createCell(3);
+			System.out.println("Enter email Number:");	
+			cell3.setCellValue(sc.nextLine());
+			Cell cell4 = row.createCell(4);
+			System.out.println("Enter country Name:");
+			cell4.setCellValue(sc.nextLine());
+			Cell cell5 = row.createCell(5);
+			System.out.println("Enter City Name:");
+			cell5.setCellValue(sc.nextLine());
+		}
+	w.write(fos);
+	}
+
+}

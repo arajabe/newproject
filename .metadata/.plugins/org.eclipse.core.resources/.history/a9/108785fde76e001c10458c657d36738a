@@ -1,0 +1,16 @@
+package org.sample;
+
+public class Sample {
+
+	public void isEmpty() {
+		System.out.println("print method");
+		
+	}
+	public static void main(String arg[]) {
+		String a = new String();
+		System.out.println("print  "+a.isEmpty());
+		System.out.println("print  "+a.toUpperCase());
+		
+	}
+
+}

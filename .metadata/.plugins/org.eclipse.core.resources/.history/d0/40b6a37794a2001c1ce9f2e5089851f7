@@ -1,0 +1,23 @@
+package org.junittest7;
+
+
+import java.io.FileInputStream;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class File {
+
+	public String filedata() {
+		Fileexceldata f = new Fileexceldata("C:\\Users\\VRKRISH\\eclipse-workspace\\JunitTest7\\File\\hotel.xlsx");
+		
+		
+		
+		
+		return null;
+		
+	}
+
+}

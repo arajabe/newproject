@@ -1,0 +1,19 @@
+package org.testng4;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+
+	@Test
+	public void browserLaunhing() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://demo.guru99.com/test/write-xpath-table.html");
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;CheckGreens.java&apos; to &apos;Amazon.java&apos;&#x0D;&#x0A;- Original project: &apos;121Greens&apos;&#x0D;&#x0A;- Original element: &apos;CheckGreens.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Amazon.java&apos;" description="Rename compilation unit &apos;CheckGreens.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{CheckGreens.java" name="Amazon.java" references="false" stamp="1644062419262" version="1.0"/>
+</session>

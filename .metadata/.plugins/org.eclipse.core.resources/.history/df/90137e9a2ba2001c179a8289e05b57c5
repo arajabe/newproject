@@ -1,0 +1,57 @@
+package org.datadriven5;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class MainClass {
+
+	@Test
+	public void excelAdactln() throws IOException, InterruptedException {
+		File f = new File("C:\\Users\\VRKRISH\\eclipse-workspace\\DataDriven5\\File\\SAMPLE - Copy.xlsx");
+		FileOutputStream fos = new FileOutputStream(f);
+		Workbook w = new XSSFWorkbook();
+		Sheet sheet = w.createSheet("Hotel Booking");
+		Row row = sheet.createRow(0);
+		Scanner sc = new Scanner(System.in);
+		Cell cell0 = row.createCell(0);
+		System.out.println("Enter Location");
+		cell0.setCellValue(sc.nextLine());
+		Cell cell1 = row.createCell(1);
+		System.out.println("Enter Hotels");
+		cell1.setCellValue(sc.nextLine());
+		Cell cell2 = row.createCell(2);
+		System.out.println("Enter Number of rooms");
+		cell2.setCellValue(sc.nextInt());
+		Cell cell3 = row.createCell(3);
+		System.out.println("Enter checkin date:dd,mm,yy");
+		Thread.sleep(7000);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd,mm,yy");
+	int datein = sc.nextInt();
+	String dateinformt = sdf.format(datein);	
+	cell3.setCellValue(dateinformt);
+	Cell cell4 = row.createCell(4);
+	System.out.println("Enter checkout date:dd,mm,yy");
+	String dateout = sc.nextLine();
+	String dateoutformat = sdf.format(dateout);
+	cell4.setCellValue(dateoutformat);
+	Cell cell5 = row.createCell(5);
+	System.out.println("Enter number of adult");
+	cell5.setCellValue(sc.nextInt());
+	Cell cell6 = row.createCell(6);
+	System.out.println("Enter number of adult");
+	cell6.setCellValue(sc.nextInt());
+	
+	}
+
+}

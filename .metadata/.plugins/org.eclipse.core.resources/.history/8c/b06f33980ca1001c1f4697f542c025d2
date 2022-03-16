@@ -1,0 +1,40 @@
+package org.testngtest2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class MainClass {
+WebDriver driver;
+	@BeforeClass
+	public void browserConfiguration(){
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();		
+	}
+	@BeforeClass
+	public void browserLaunching() {
+		driver.get("https://www.redbus.in/");
+	}
+	@Test
+	public void loginPage() {
+		
+		System.out.println(" print ");
+		WebElement bookingicon = driver.findElement(By.id("select_box_sign"));
+		WebElement signin=driver.findElement(By.xpath("//li[text()='Sign In/Sign Up']"));
+	Actions a = new Actions(driver);
+	a.moveToElement(bookingicon).click().build().perform();
+	signin.click();
+	WebElement fram = driver.findElement(By.xpath("//iframe[@class='modalIframe']"));
+	driver.switchTo().frame(fram);
+	WebElement mobile = driver.findElement(By.xpath("(//input[@placeholder='Enter your mobile number'])[2]"));
+	mobile.sendKeys("98405");	
+	}
+
+}
